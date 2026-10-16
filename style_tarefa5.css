@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(224, 253, 241);
+}
+
+#cabecalho{
+    font-family: fantasy;
+    text-align: center;
+    color:rgb(45, 0, 77);
+}
+
+#titulos {
+    color: rgb(120, 54, 151);
+    font-family: fantasy;
+}
+
+p {
+    color:rgb(45, 0, 77);
+            
+}

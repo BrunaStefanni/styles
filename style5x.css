@@ -1,0 +1,81 @@
+body {
+	margin: 20px;
+	background-color: lightyellow;
+	font-family: verdana, arial, sans-serif;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 1.6em;
+	font-weight: bold;
+	color: darkblue;
+    
+}
+
+h1 span {
+	background-color: #333366;
+	text-align: center;
+	color: white;
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: darkblue;
+}
+
+p {
+	margin: 5px;
+	text-align: justify;
+    font-size: 1.1em;
+    color: darkcyan;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: blue;
+}
+
+hr {
+	height: 7px;
+	width: 50%;
+	background-color: darkblue;
+}
+
+#meunome {
+	text-align: center;
+    color: rgb(120, 139, 73);
+    font-size: 14px;
+    font-style: italic;
+}
+
+.box {
+    width:100%;
+    background-color: lightyellow;
+	border: 10px solid rgb(230, 206, 170);
+    padding: 20px 15px;
+    margin: 10px auto;
+    box-sizing: border-box; /* inclui borda e padding na dimensão total da box */
+
+}
+
+html, body {
+	margin: 20px;
+	min-height: 70%;	/* Defini a altura da caixa-box */
+}
+
+footer {
+	text-align: center;
+    color: darkblue;
+    border-top: 1px solid rgb(230, 206, 170);
+	box-sizing: border-box;
+}
+footer p {
+	text-align: center;
+	margin: 5xp 0;
+	font-size: 14px;
+    font-style: italic;
+}
