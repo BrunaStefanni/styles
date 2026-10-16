@@ -1,0 +1,90 @@
+/* Menu de navegação */
+nav {
+    background-color: #333366;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Lista do menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Links do menu */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Efeito ao passar o rato */
+nav a:hover {
+    color: lightyellow;
+    text-decoration: underline;
+}
+
+/* Navegação suave entre secções */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+/* Imagem e títulos à esquerda */
+.identidade {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.identidade img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Títulos */
+.identidade h1 {
+    margin: 0 0 10px;
+}
+
+.identidade h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Menu à direita */
+.cabecalho nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.cabecalho nav a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.cabecalho nav a:hover {
+    color: darkcyan;
+    text-decoration: underline;
+}
