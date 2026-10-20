@@ -56,3 +56,73 @@ footer {
         font-size: 32px;
     }
 }
+
+/* divisão */
+
+/* Cabeçalho */
+.navbar {
+    background: linear-gradient(90deg, #003C5F, #005577);
+    color: white;
+}
+
+/* Rodapé */
+footer {
+    background-color: #003C5F;
+    color: white;
+}
+
+
+/* Texto geral */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #173B55;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* Botões e navegação */
+button, .btn, .nav-link {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+/* divisão */
+
+/* Caixas de informação */
+.caixas-info {
+    display: flex;
+    gap: 25px;
+}
+
+/* Cada caixa */
+.caixa-info {
+    flex: 1;
+    background-color: #f0f8ff;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #176fc2;
+}
+
+/* Títulos das caixas */
+.caixa-info h2 {
+    color: #176fc2;
+    margin-bottom: 15px;
+}
+
+/* Texto */
+.caixa-info p {
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+/* Adaptação a telemóveis */
+@media (max-width: 576px) {
+    .caixas-info {
+        flex-direction: column;
+    }
+}
+
