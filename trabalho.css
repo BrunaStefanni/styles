@@ -1,0 +1,58 @@
+
+/* Estilo geral */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #173b55;
+}
+
+/* Fotografia no topo */
+.foto-principal {
+    height: 400px;
+
+    background-image: url("imagens\ trab/mar1.avif");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    color: white;
+}
+
+/* Texto sobre a fotografia */
+.texto-foto {
+    background-color: rgba(0, 35, 65, 0.55);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.texto-foto h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+/* Títulos das secções */
+h2 {
+    color: #087eae;
+    margin-bottom: 20px;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 40px;
+}
+
+/* Adaptação para telemóveis */
+@media (max-width: 576px) {
+    .foto-principal {
+        height: 280px;
+    }
+
+    .texto-foto h1 {
+        font-size: 32px;
+    }
+}
